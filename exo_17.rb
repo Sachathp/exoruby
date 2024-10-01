@@ -8,5 +8,5 @@ end
 
 puts "Voici la pyramide :"
 nombre.times do |i| 
-    puts " " ( - i - 1 + 1) "#" * (i + 1) 
+    puts " " * ( nombre - i - 1 )  + "#" * (2 * i + 1) 
 end
